@@ -1,0 +1,85 @@
+﻿@model TransactionApp.Models.IndexViewReportModel
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    var montSumm = new Dictionary<int, double>();
+    var summ = new Double();
+}
+
+<table class="table">
+    <tr>
+        <td>Accounts</td>
+        <td>Month1</td>
+        <td>Month2</td>
+        <td>Month3</td>
+        <td>Month4</td>
+        <td>Month5</td>
+        <td>Month6</td>
+        <td>Month7</td>
+        <td>Month8</td>
+        <td>Month9</td>
+        <td>Month10</td>
+        <td>Month11</td>
+        <td>Month12</td>
+        @foreach (var item in Model.AccountsReport)
+        {
+            foreach(var month in item.Totals)
+            {
+                montSumm.Add(month.TransactionDate.Month, month.Summ);
+            }
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            @for (int i = 1; i <= 12; i++)
+            {
+                @:<td>                                     
+                    @if (montSumm.TryGetValue(i, out summ))
+                    {
+                        @summ.ToString();                        
+                    }                
+                @: </td>
+            }
+        </tr>
+            montSumm.Clear();
+        }
+    </tr>
+</table>
+
+
+@if (Model.PageInfo.EndPage > 1)
+{
+    <ul class="pagination">
+        @if (Model.PageInfo.CurrentPage > 1)
+        {
+            <li>
+                <a href="~/Transaction/Report">First</a>
+            </li>
+                <li>
+                    <a href="~/Transaction/Report?page=@(Model.PageInfo.CurrentPage - 1)">Previous</a>
+                </li>
+        }
+
+        @for (var page = Model.PageInfo.StartPage; page <= Model.PageInfo.EndPage; page++)
+        {
+            <li class="@(page == Model.PageInfo.CurrentPage ? "active" : "")">
+                <a href="~/Transaction/Report?page=@page">@page</a>
+            </li>}
+
+        @if (Model.PageInfo.CurrentPage < Model.PageInfo.TotalPages)
+        {
+            <li>
+                <a href="~/Transaction/Report?page=@(Model.PageInfo.CurrentPage + 1)">Next</a>
+            </li>
+                <li>
+                    <a href="~/Transaction/Report?page=@(Model.PageInfo.TotalPages)">Last</a>
+                </li>
+        }
+    </ul>
+}
+<br />
+
+

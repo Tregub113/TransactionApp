@@ -1,0 +1,9 @@
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\bin\Debug\netcoreapp1.1\TransactionApp.Data.deps.json
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\bin\Debug\netcoreapp1.1\TransactionApp.Data.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\bin\Debug\netcoreapp1.1\TransactionApp.Data.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\bin\Debug\netcoreapp1.1\TransactionApp.Domain.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\bin\Debug\netcoreapp1.1\TransactionApp.Domain.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\obj\Debug\netcoreapp1.1\TransactionApp.Data.csprojResolveAssemblyReference.cache
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\obj\Debug\netcoreapp1.1\TransactionApp.Data.AssemblyInfo.cs
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\obj\Debug\netcoreapp1.1\TransactionApp.Data.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp.Data\obj\Debug\netcoreapp1.1\TransactionApp.Data.pdb

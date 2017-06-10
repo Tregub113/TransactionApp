@@ -1,0 +1,15 @@
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.deps.json
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.runtimeconfig.json
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.runtimeconfig.dev.json
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Core.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Data.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Domain.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Core.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Data.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp\bin\Debug\netcoreapp1.1\TransactionApp.Domain.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp\obj\Debug\netcoreapp1.1\TransactionApp.csprojResolveAssemblyReference.cache
+E:\Learning\PetProject\TransactionApp\TransactionApp\obj\Debug\netcoreapp1.1\TransactionApp.AssemblyInfo.cs
+E:\Learning\PetProject\TransactionApp\TransactionApp\obj\Debug\netcoreapp1.1\TransactionApp.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp\obj\Debug\netcoreapp1.1\TransactionApp.pdb

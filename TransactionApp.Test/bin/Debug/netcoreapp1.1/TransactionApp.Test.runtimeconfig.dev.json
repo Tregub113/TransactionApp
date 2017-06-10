@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Tregub\\.nuget\\packages",
+      "C:\\Users\\Tregub\\.dotnet\\NuGetFallbackFolder"
+    ]
+  }
+}

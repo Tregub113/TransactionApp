@@ -1,0 +1,6 @@
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\bin\Debug\netcoreapp1.1\TransactionApp.Domain.deps.json
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\bin\Debug\netcoreapp1.1\TransactionApp.Domain.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\bin\Debug\netcoreapp1.1\TransactionApp.Domain.pdb
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\obj\Debug\netcoreapp1.1\TransactionApp.Domain.AssemblyInfo.cs
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\obj\Debug\netcoreapp1.1\TransactionApp.Domain.dll
+E:\Learning\PetProject\TransactionApp\TransactionApp.Domain\obj\Debug\netcoreapp1.1\TransactionApp.Domain.pdb

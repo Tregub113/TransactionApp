@@ -1,0 +1,15 @@
+﻿@model TransactionApp.Models.IndexViewReportModel
+
+ 
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h3>Выберите файл для загрузки</h3>
+<form asp-action="Upload" asp-controller="Transaction" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" /><br>
+    <input type="submit" value="Загрузить" />
+</form>
+
+
